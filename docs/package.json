@@ -1,0 +1,26 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "components": "^0.1.0",
+    "react-app-polyfill": "^1.0.0",
+    "react-native": "^0.61.5",
+    "react-native-web": "^0.12.2"
+  },
+  "alias": {
+    "react-native": "react-native-web"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.8.4",
+    "parcel": "^1.12.3",
+    "resize-observer-polyfill": "^1.5.1",
+    "typescript": "^3.4.5"
+  }
+}
